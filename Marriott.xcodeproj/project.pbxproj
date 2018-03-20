@@ -7,6 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D116BB7FF221CF29B3F3B0A /* Pods_MarriottTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444D625E25BE7C8BB24F63B1 /* Pods_MarriottTests.framework */; };
+		A9E40E7F945FF9F412AB1EDC /* Pods_Marriott.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE60069538959AA0190213C /* Pods_Marriott.framework */; };
+		CE085D7F205ABBFB009EEE1E /* results.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE085D7E205ABBFB009EEE1E /* results.swift */; };
+		CE0A222A205075EC004323C2 /* resetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0A2229205075EC004323C2 /* resetViewController.swift */; };
+		CE0F3299205D873B00BB2F2D /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F3298205D873B00BB2F2D /* RoomViewController.swift */; };
+		CE0F329B205DD60D00BB2F2D /* roomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F329A205DD60D00BB2F2D /* roomTableViewCell.swift */; };
+		CE0F329D205DD64900BB2F2D /* room2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F329C205DD64900BB2F2D /* room2TableViewCell.swift */; };
+		CE0F32A1205DF2D400BB2F2D /* ratesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F32A0205DF2D400BB2F2D /* ratesViewController.swift */; };
+		CE1895FE206142EF00650550 /* informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1895FD206142EF00650550 /* informationViewController.swift */; };
+		CE23A01320534F5A0072742F /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23A01220534F5A0072742F /* locationViewController.swift */; };
+		CE24CD042056C7A400DED1C8 /* optionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24CD032056C7A400DED1C8 /* optionsViewController.swift */; };
+		CE24CD062056E34F00DED1C8 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24CD052056E34F00DED1C8 /* CalendarViewController.swift */; };
+		CE256EDC205414ED00BCA447 /* location1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE256EDB205414ED00BCA447 /* location1ViewController.swift */; };
+		CE3B9D692052D7090022922D /* web2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B9D682052D7090022922D /* web2ViewController.swift */; };
+		CE504311204EF57100FB8C82 /* popupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE504310204EF57100FB8C82 /* popupViewController.swift */; };
+		CE5266CF205C002500A319C8 /* chijw_main01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266CE205C002300A319C8 /* chijw_main01.jpg */; };
+		CE5266D1205C0F2500A319C8 /* hoteldetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5266D0205C0F2500A319C8 /* hoteldetailViewController.swift */; };
+		CE5266D7205C0FBD00A319C8 /* oxrvb_main03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266D6205C0FBD00A319C8 /* oxrvb_main03.jpg */; };
+		CE5266D9205C0FFE00A319C8 /* 57428872.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266D8205C0FFE00A319C8 /* 57428872.jpg */; };
+		CE5266DB205C102000A319C8 /* cy_space_guest-room-06-lrg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266DA205C102000A319C8 /* cy_space_guest-room-06-lrg.jpg */; };
+		CE5266DD205C102F00A319C8 /* JW-Marriott-Mumbai-guestroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266DC205C102F00A319C8 /* JW-Marriott-Mumbai-guestroom.jpg */; };
+		CE5266DF205C103F00A319C8 /* kglmc-guestroom-0036-hor-clsc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266DE205C103F00A319C8 /* kglmc-guestroom-0036-hor-clsc.jpg */; };
+		CE5266E1205C105000A319C8 /* contemporary-bathroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266E0205C105000A319C8 /* contemporary-bathroom.jpg */; };
+		CE5266E3205C105B00A319C8 /* delap_phototour18_w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266E2205C105B00A319C8 /* delap_phototour18_w.jpg */; };
+		CE5266E5205C109800A319C8 /* 153073093.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266E4205C109800A319C8 /* 153073093.jpg */; };
+		CE5266E7205C11D500A319C8 /* fradt_crossrestaurant_home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266E6205C11D500A319C8 /* fradt_crossrestaurant_home.jpg */; };
+		CE5266E9205C437800A319C8 /* 56688272390e5601b0ace1e9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5266E8205C437800A319C8 /* 56688272390e5601b0ace1e9.jpg */; };
+		CE5266F7205C601800A319C8 /* 3717923.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5266F6205C601800A319C8 /* 3717923.png */; };
+		CE5266F9205C645300A319C8 /* hotelmapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5266F8205C645300A319C8 /* hotelmapViewController.swift */; };
+		CE55C31C2051819200D280F9 /* MarriottStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE55C31B2051819200D280F9 /* MarriottStoryboard.storyboard */; };
+		CE55C31E205189D000D280F9 /* Hammock Palm Trees Beach iPhone 6 Plus HD Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE55C31D205189D000D280F9 /* Hammock Palm Trees Beach iPhone 6 Plus HD Wallpaper.jpg */; };
+		CE55C320205189DF00D280F9 /* Glass Apple Logo carved in Metal iPhone 5 Wallpaper-320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = CE55C31F205189DF00D280F9 /* Glass Apple Logo carved in Metal iPhone 5 Wallpaper-320x480.png */; };
+		CE55C322205189F300D280F9 /* be319827c9728ffe4f055a844b4e69e8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE55C321205189F200D280F9 /* be319827c9728ffe4f055a844b4e69e8.jpg */; };
+		CE55C324205189FB00D280F9 /* spices_seasonings_red_pepper_black_pepper_pepper_star_anise_onion_ginger_garlic_walnuts_bay_leaf_78738_640x960.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE55C323205189FB00D280F9 /* spices_seasonings_red_pepper_black_pepper_pepper_star_anise_onion_ginger_garlic_walnuts_bay_leaf_78738_640x960.jpg */; };
+		CE55C32620518A0400D280F9 /* allef-vinicius-241577-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE55C32520518A0400D280F9 /* allef-vinicius-241577-unsplash.jpg */; };
+		CE55C32820518A0E00D280F9 /* ws_Building_Prague_Czech_Republic_640x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE55C32720518A0E00D280F9 /* ws_Building_Prague_Czech_Republic_640x1136.jpg */; };
+		CE55C32C2051EA0800D280F9 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55C32B2051EA0800D280F9 /* Slide.swift */; };
+		CE55C32E2051F1AB00D280F9 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE55C32D2051F1AB00D280F9 /* Slide.xib */; };
+		CE63C0BE206000200023773E /* confirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63C0BD206000200023773E /* confirmationViewController.swift */; };
+		CE63C0C0206005D60023773E /* scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63C0BF206005D60023773E /* scroll.swift */; };
+		CE63C0C2206006070023773E /* scroll.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE63C0C1206006070023773E /* scroll.xib */; };
+		CE63C0C42060093B0023773E /* 21477_237_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63C0C32060093B0023773E /* 21477_237_z.jpg */; };
+		CE63C0C620600A390023773E /* 84369910.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63C0C520600A390023773E /* 84369910.jpg */; };
+		CE63C0C820602FCD0023773E /* BookhistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63C0C720602FCD0023773E /* BookhistoryViewController.swift */; };
+		CE63C0CC20603CAD0023773E /* marriott.png in Resources */ = {isa = PBXBuildFile; fileRef = CE63C0CB20603CAC0023773E /* marriott.png */; };
+		CE63C0D2206071120023773E /* Hotelinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63C0D1206071120023773E /* Hotelinfo.swift */; };
+		CE63C0D4206084030023773E /* bookedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63C0D3206084030023773E /* bookedTableViewCell.swift */; };
+		CE65245B205B0C82007E1539 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65245A205B0C82007E1539 /* TableViewCell.swift */; };
+		CE7E5179204F11CA00D67ECE /* popup2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E5178204F11CA00D67ECE /* popup2ViewController.swift */; };
+		CE7EFC8B20587595003D469F /* Google-Maps-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7EFC8A20587594003D469F /* Google-Maps-icon.png */; };
+		CE7EFC8D205880E5003D469F /* 690041_arrows_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7EFC8C205880E5003D469F /* 690041_arrows_512x512.png */; };
+		CE9071A42056F9D100A72CC9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9071A32056F9D100A72CC9 /* CollectionViewCell.swift */; };
+		CEA17D6A205813A3002F1DEB /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA17D69205813A3002F1DEB /* MapsViewController.swift */; };
+		CEA17D6C20581509002F1DEB /* HotelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA17D6B20581509002F1DEB /* HotelsViewController.swift */; };
+		CECB2990204F3EBC00C6062B /* User-Interface-Unchecked-Checkbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CECB298F204F3EBC00C6062B /* User-Interface-Unchecked-Checkbox-icon.png */; };
+		CECB2992204F429E00C6062B /* User-Interface-Checked-Checkbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CECB2991204F429E00C6062B /* User-Interface-Checked-Checkbox-icon.png */; };
+		CECB2994204F489E00C6062B /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB2993204F489E00C6062B /* webViewController.swift */; };
+		CECB2996204F64D700C6062B /* Safari-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CECB2995204F64D600C6062B /* Safari-icon.png */; };
+		CECB299820502FFE00C6062B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CECB299720502FFE00C6062B /* GoogleService-Info.plist */; };
+		CECB299A2050395C00C6062B /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB29992050395C00C6062B /* BookViewController.swift */; };
 		CED4E581204EE56A00BF9467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4E580204EE56A00BF9467 /* AppDelegate.swift */; };
 		CED4E583204EE56B00BF9467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4E582204EE56B00BF9467 /* ViewController.swift */; };
 		CED4E586204EE56B00BF9467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED4E584204EE56B00BF9467 /* Main.storyboard */; };
@@ -14,6 +74,9 @@
 		CED4E58B204EE56B00BF9467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED4E58A204EE56B00BF9467 /* Assets.xcassets */; };
 		CED4E58E204EE56B00BF9467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED4E58C204EE56B00BF9467 /* LaunchScreen.storyboard */; };
 		CED4E599204EE56B00BF9467 /* MarriottTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4E598204EE56B00BF9467 /* MarriottTests.swift */; };
+		CED4E5A5204EE63C00BF9467 /* 325cc63a83badd74fa0f47249a3dcbfe_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CED4E5A4204EE63B00BF9467 /* 325cc63a83badd74fa0f47249a3dcbfe_icon.png */; };
+		CED4E5A7204EE79B00BF9467 /* 91e587f5e4bf5b6f99054d3e7a5d47b1--sailing-boat-sail-boats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED4E5A6204EE79B00BF9467 /* 91e587f5e4bf5b6f99054d3e7a5d47b1--sailing-boat-sail-boats.jpg */; };
+		CED4E5A9204EE85B00BF9467 /* marriott-rewards-featured-image.png in Resources */ = {isa = PBXBuildFile; fileRef = CED4E5A8204EE85B00BF9467 /* marriott-rewards-featured-image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +90,70 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031DD06D9D59900396E40F97 /* Pods-Marriott.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marriott.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marriott/Pods-Marriott.release.xcconfig"; sourceTree = "<group>"; };
+		444D625E25BE7C8BB24F63B1 /* Pods_MarriottTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarriottTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE60069538959AA0190213C /* Pods_Marriott.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marriott.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6800AE47189BD7D35E2DFC0C /* Pods-Marriott.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marriott.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marriott/Pods-Marriott.debug.xcconfig"; sourceTree = "<group>"; };
+		9FEBE46E4A0E8DD1FB21F75F /* Pods-MarriottTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarriottTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarriottTests/Pods-MarriottTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B77A4201A343BE8C133D0D /* Pods-MarriottTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarriottTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarriottTests/Pods-MarriottTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE085D7E205ABBFB009EEE1E /* results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = results.swift; sourceTree = "<group>"; };
+		CE0A2229205075EC004323C2 /* resetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetViewController.swift; sourceTree = "<group>"; };
+		CE0F3298205D873B00BB2F2D /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		CE0F329A205DD60D00BB2F2D /* roomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomTableViewCell.swift; sourceTree = "<group>"; };
+		CE0F329C205DD64900BB2F2D /* room2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = room2TableViewCell.swift; sourceTree = "<group>"; };
+		CE0F32A0205DF2D400BB2F2D /* ratesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratesViewController.swift; sourceTree = "<group>"; };
+		CE1895FD206142EF00650550 /* informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationViewController.swift; sourceTree = "<group>"; };
+		CE23A01220534F5A0072742F /* locationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
+		CE24CD032056C7A400DED1C8 /* optionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionsViewController.swift; sourceTree = "<group>"; };
+		CE24CD052056E34F00DED1C8 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		CE256EDB205414ED00BCA447 /* location1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location1ViewController.swift; sourceTree = "<group>"; };
+		CE3B9D682052D7090022922D /* web2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = web2ViewController.swift; path = ../../../.Trash/web2ViewController.swift; sourceTree = "<group>"; };
+		CE504310204EF57100FB8C82 /* popupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = popupViewController.swift; path = ../../../.Trash/popupViewController.swift; sourceTree = "<group>"; };
+		CE5266CE205C002300A319C8 /* chijw_main01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chijw_main01.jpg; path = ../../../Downloads/chijw_main01.jpg; sourceTree = "<group>"; };
+		CE5266D0205C0F2500A319C8 /* hoteldetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoteldetailViewController.swift; sourceTree = "<group>"; };
+		CE5266D6205C0FBD00A319C8 /* oxrvb_main03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oxrvb_main03.jpg; path = ../../../Downloads/oxrvb_main03.jpg; sourceTree = "<group>"; };
+		CE5266D8205C0FFE00A319C8 /* 57428872.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 57428872.jpg; path = ../../../Downloads/57428872.jpg; sourceTree = "<group>"; };
+		CE5266DA205C102000A319C8 /* cy_space_guest-room-06-lrg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cy_space_guest-room-06-lrg.jpg"; path = "../../../Downloads/cy_space_guest-room-06-lrg.jpg"; sourceTree = "<group>"; };
+		CE5266DC205C102F00A319C8 /* JW-Marriott-Mumbai-guestroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "JW-Marriott-Mumbai-guestroom.jpg"; path = "../../../Downloads/JW-Marriott-Mumbai-guestroom.jpg"; sourceTree = "<group>"; };
+		CE5266DE205C103F00A319C8 /* kglmc-guestroom-0036-hor-clsc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "kglmc-guestroom-0036-hor-clsc.jpg"; path = "../../../Downloads/kglmc-guestroom-0036-hor-clsc.jpg"; sourceTree = "<group>"; };
+		CE5266E0205C105000A319C8 /* contemporary-bathroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "contemporary-bathroom.jpg"; path = "../../../Downloads/contemporary-bathroom.jpg"; sourceTree = "<group>"; };
+		CE5266E2205C105B00A319C8 /* delap_phototour18_w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = delap_phototour18_w.jpg; path = ../../../Downloads/delap_phototour18_w.jpg; sourceTree = "<group>"; };
+		CE5266E4205C109800A319C8 /* 153073093.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 153073093.jpg; path = ../../../Downloads/153073093.jpg; sourceTree = "<group>"; };
+		CE5266E6205C11D500A319C8 /* fradt_crossrestaurant_home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fradt_crossrestaurant_home.jpg; path = ../../../Downloads/fradt_crossrestaurant_home.jpg; sourceTree = "<group>"; };
+		CE5266E8205C437800A319C8 /* 56688272390e5601b0ace1e9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 56688272390e5601b0ace1e9.jpg; path = ../../../.Trash/56688272390e5601b0ace1e9.jpg; sourceTree = "<group>"; };
+		CE5266F6205C601800A319C8 /* 3717923.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3717923.png; path = ../../../Downloads/3717923.png; sourceTree = "<group>"; };
+		CE5266F8205C645300A319C8 /* hotelmapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotelmapViewController.swift; sourceTree = "<group>"; };
+		CE55C31B2051819200D280F9 /* MarriottStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MarriottStoryboard.storyboard; sourceTree = "<group>"; };
+		CE55C31D205189D000D280F9 /* Hammock Palm Trees Beach iPhone 6 Plus HD Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Hammock Palm Trees Beach iPhone 6 Plus HD Wallpaper.jpg"; path = "../../../Downloads/Hammock Palm Trees Beach iPhone 6 Plus HD Wallpaper.jpg"; sourceTree = "<group>"; };
+		CE55C31F205189DF00D280F9 /* Glass Apple Logo carved in Metal iPhone 5 Wallpaper-320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Glass Apple Logo carved in Metal iPhone 5 Wallpaper-320x480.png"; path = "../../../Downloads/Glass Apple Logo carved in Metal iPhone 5 Wallpaper-320x480.png"; sourceTree = "<group>"; };
+		CE55C321205189F200D280F9 /* be319827c9728ffe4f055a844b4e69e8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = be319827c9728ffe4f055a844b4e69e8.jpg; path = ../../../Downloads/be319827c9728ffe4f055a844b4e69e8.jpg; sourceTree = "<group>"; };
+		CE55C323205189FB00D280F9 /* spices_seasonings_red_pepper_black_pepper_pepper_star_anise_onion_ginger_garlic_walnuts_bay_leaf_78738_640x960.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spices_seasonings_red_pepper_black_pepper_pepper_star_anise_onion_ginger_garlic_walnuts_bay_leaf_78738_640x960.jpg; path = ../../../Downloads/spices_seasonings_red_pepper_black_pepper_pepper_star_anise_onion_ginger_garlic_walnuts_bay_leaf_78738_640x960.jpg; sourceTree = "<group>"; };
+		CE55C32520518A0400D280F9 /* allef-vinicius-241577-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "allef-vinicius-241577-unsplash.jpg"; path = "../../../Downloads/allef-vinicius-241577-unsplash.jpg"; sourceTree = "<group>"; };
+		CE55C32720518A0E00D280F9 /* ws_Building_Prague_Czech_Republic_640x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ws_Building_Prague_Czech_Republic_640x1136.jpg; path = ../../../Downloads/ws_Building_Prague_Czech_Republic_640x1136.jpg; sourceTree = "<group>"; };
+		CE55C32B2051EA0800D280F9 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		CE55C32D2051F1AB00D280F9 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		CE63C0BD206000200023773E /* confirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmationViewController.swift; sourceTree = "<group>"; };
+		CE63C0BF206005D60023773E /* scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroll.swift; sourceTree = "<group>"; };
+		CE63C0C1206006070023773E /* scroll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = scroll.xib; sourceTree = "<group>"; };
+		CE63C0C32060093B0023773E /* 21477_237_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 21477_237_z.jpg; path = ../../../Downloads/21477_237_z.jpg; sourceTree = "<group>"; };
+		CE63C0C520600A390023773E /* 84369910.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 84369910.jpg; path = ../../../Downloads/84369910.jpg; sourceTree = "<group>"; };
+		CE63C0C720602FCD0023773E /* BookhistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookhistoryViewController.swift; sourceTree = "<group>"; };
+		CE63C0CB20603CAC0023773E /* marriott.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marriott.png; path = ../../../Downloads/marriott.png; sourceTree = "<group>"; };
+		CE63C0D1206071120023773E /* Hotelinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotelinfo.swift; sourceTree = "<group>"; };
+		CE63C0D3206084030023773E /* bookedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookedTableViewCell.swift; sourceTree = "<group>"; };
+		CE65245A205B0C82007E1539 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CE7E5178204F11CA00D67ECE /* popup2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popup2ViewController.swift; sourceTree = "<group>"; };
+		CE7EFC8A20587594003D469F /* Google-Maps-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Google-Maps-icon.png"; path = "../../../Downloads/Google-Maps-icon.png"; sourceTree = "<group>"; };
+		CE7EFC8C205880E5003D469F /* 690041_arrows_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 690041_arrows_512x512.png; path = ../../../Downloads/690041_arrows_512x512.png; sourceTree = "<group>"; };
+		CE9071A32056F9D100A72CC9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CEA17D69205813A3002F1DEB /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		CEA17D6B20581509002F1DEB /* HotelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsViewController.swift; sourceTree = "<group>"; };
+		CECB298F204F3EBC00C6062B /* User-Interface-Unchecked-Checkbox-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User-Interface-Unchecked-Checkbox-icon.png"; path = "../../../Downloads/User-Interface-Unchecked-Checkbox-icon.png"; sourceTree = "<group>"; };
+		CECB2991204F429E00C6062B /* User-Interface-Checked-Checkbox-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User-Interface-Checked-Checkbox-icon.png"; path = "../../../Downloads/User-Interface-Checked-Checkbox-icon.png"; sourceTree = "<group>"; };
+		CECB2993204F489E00C6062B /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		CECB2995204F64D600C6062B /* Safari-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Safari-icon.png"; path = "../../../Downloads/Safari-icon.png"; sourceTree = "<group>"; };
+		CECB299720502FFE00C6062B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CECB29992050395C00C6062B /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		CED4E57D204EE56A00BF9467 /* Marriott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marriott.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED4E580204EE56A00BF9467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED4E582204EE56B00BF9467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +165,9 @@
 		CED4E594204EE56B00BF9467 /* MarriottTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarriottTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED4E598204EE56B00BF9467 /* MarriottTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarriottTests.swift; sourceTree = "<group>"; };
 		CED4E59A204EE56B00BF9467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED4E5A4204EE63B00BF9467 /* 325cc63a83badd74fa0f47249a3dcbfe_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 325cc63a83badd74fa0f47249a3dcbfe_icon.png; path = ../../../Downloads/325cc63a83badd74fa0f47249a3dcbfe_icon.png; sourceTree = "<group>"; };
+		CED4E5A6204EE79B00BF9467 /* 91e587f5e4bf5b6f99054d3e7a5d47b1--sailing-boat-sail-boats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "91e587f5e4bf5b6f99054d3e7a5d47b1--sailing-boat-sail-boats.jpg"; path = "../../../Downloads/91e587f5e4bf5b6f99054d3e7a5d47b1--sailing-boat-sail-boats.jpg"; sourceTree = "<group>"; };
+		CED4E5A8204EE85B00BF9467 /* marriott-rewards-featured-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marriott-rewards-featured-image.png"; path = "../../../Downloads/marriott-rewards-featured-image.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E40E7F945FF9F412AB1EDC /* Pods_Marriott.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +183,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D116BB7FF221CF29B3F3B0A /* Pods_MarriottTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D183FB477C8C98CDB39007C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6800AE47189BD7D35E2DFC0C /* Pods-Marriott.debug.xcconfig */,
+				031DD06D9D59900396E40F97 /* Pods-Marriott.release.xcconfig */,
+				9FEBE46E4A0E8DD1FB21F75F /* Pods-MarriottTests.debug.xcconfig */,
+				B7B77A4201A343BE8C133D0D /* Pods-MarriottTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CED4E574204EE56A00BF9467 = {
 			isa = PBXGroup;
 			children = (
+				CED4E5A3204EE62500BF9467 /* Images */,
 				CED4E57F204EE56A00BF9467 /* Marriott */,
 				CED4E597204EE56B00BF9467 /* MarriottTests */,
 				CED4E57E204EE56A00BF9467 /* Products */,
+				3D183FB477C8C98CDB39007C /* Pods */,
+				E3F753943F751C03A0F2929C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +227,43 @@
 			children = (
 				CED4E580204EE56A00BF9467 /* AppDelegate.swift */,
 				CED4E582204EE56B00BF9467 /* ViewController.swift */,
+				CE504310204EF57100FB8C82 /* popupViewController.swift */,
 				CED4E584204EE56B00BF9467 /* Main.storyboard */,
 				CED4E58A204EE56B00BF9467 /* Assets.xcassets */,
 				CED4E58C204EE56B00BF9467 /* LaunchScreen.storyboard */,
 				CED4E58F204EE56B00BF9467 /* Info.plist */,
+				CECB299720502FFE00C6062B /* GoogleService-Info.plist */,
 				CED4E587204EE56B00BF9467 /* Marriott.xcdatamodeld */,
+				CE7E5178204F11CA00D67ECE /* popup2ViewController.swift */,
+				CECB2993204F489E00C6062B /* webViewController.swift */,
+				CECB29992050395C00C6062B /* BookViewController.swift */,
+				CE0A2229205075EC004323C2 /* resetViewController.swift */,
+				CE55C31B2051819200D280F9 /* MarriottStoryboard.storyboard */,
+				CE55C32B2051EA0800D280F9 /* Slide.swift */,
+				CE55C32D2051F1AB00D280F9 /* Slide.xib */,
+				CE3B9D682052D7090022922D /* web2ViewController.swift */,
+				CE256EDB205414ED00BCA447 /* location1ViewController.swift */,
+				CE23A01220534F5A0072742F /* locationViewController.swift */,
+				CE24CD032056C7A400DED1C8 /* optionsViewController.swift */,
+				CE24CD052056E34F00DED1C8 /* CalendarViewController.swift */,
+				CE9071A32056F9D100A72CC9 /* CollectionViewCell.swift */,
+				CEA17D69205813A3002F1DEB /* MapsViewController.swift */,
+				CEA17D6B20581509002F1DEB /* HotelsViewController.swift */,
+				CE085D7E205ABBFB009EEE1E /* results.swift */,
+				CE65245A205B0C82007E1539 /* TableViewCell.swift */,
+				CE5266D0205C0F2500A319C8 /* hoteldetailViewController.swift */,
+				CE5266F8205C645300A319C8 /* hotelmapViewController.swift */,
+				CE0F3298205D873B00BB2F2D /* RoomViewController.swift */,
+				CE0F329A205DD60D00BB2F2D /* roomTableViewCell.swift */,
+				CE0F329C205DD64900BB2F2D /* room2TableViewCell.swift */,
+				CE0F32A0205DF2D400BB2F2D /* ratesViewController.swift */,
+				CE63C0BD206000200023773E /* confirmationViewController.swift */,
+				CE63C0BF206005D60023773E /* scroll.swift */,
+				CE63C0C1206006070023773E /* scroll.xib */,
+				CE63C0C720602FCD0023773E /* BookhistoryViewController.swift */,
+				CE63C0D1206071120023773E /* Hotelinfo.swift */,
+				CE63C0D3206084030023773E /* bookedTableViewCell.swift */,
+				CE1895FD206142EF00650550 /* informationViewController.swift */,
 			);
 			path = Marriott;
 			sourceTree = "<group>";
@@ -99,6 +277,51 @@
 			path = MarriottTests;
 			sourceTree = "<group>";
 		};
+		CED4E5A3204EE62500BF9467 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CED4E5A4204EE63B00BF9467 /* 325cc63a83badd74fa0f47249a3dcbfe_icon.png */,
+				CED4E5A6204EE79B00BF9467 /* 91e587f5e4bf5b6f99054d3e7a5d47b1--sailing-boat-sail-boats.jpg */,
+				CED4E5A8204EE85B00BF9467 /* marriott-rewards-featured-image.png */,
+				CECB298F204F3EBC00C6062B /* User-Interface-Unchecked-Checkbox-icon.png */,
+				CECB2991204F429E00C6062B /* User-Interface-Checked-Checkbox-icon.png */,
+				CECB2995204F64D600C6062B /* Safari-icon.png */,
+				CE55C31D205189D000D280F9 /* Hammock Palm Trees Beach iPhone 6 Plus HD Wallpaper.jpg */,
+				CE55C31F205189DF00D280F9 /* Glass Apple Logo carved in Metal iPhone 5 Wallpaper-320x480.png */,
+				CE55C321205189F200D280F9 /* be319827c9728ffe4f055a844b4e69e8.jpg */,
+				CE55C323205189FB00D280F9 /* spices_seasonings_red_pepper_black_pepper_pepper_star_anise_onion_ginger_garlic_walnuts_bay_leaf_78738_640x960.jpg */,
+				CE55C32520518A0400D280F9 /* allef-vinicius-241577-unsplash.jpg */,
+				CE55C32720518A0E00D280F9 /* ws_Building_Prague_Czech_Republic_640x1136.jpg */,
+				CE7EFC8A20587594003D469F /* Google-Maps-icon.png */,
+				CE7EFC8C205880E5003D469F /* 690041_arrows_512x512.png */,
+				CE5266CE205C002300A319C8 /* chijw_main01.jpg */,
+				CE5266D8205C0FFE00A319C8 /* 57428872.jpg */,
+				CE5266E8205C437800A319C8 /* 56688272390e5601b0ace1e9.jpg */,
+				CE5266D6205C0FBD00A319C8 /* oxrvb_main03.jpg */,
+				CE5266DA205C102000A319C8 /* cy_space_guest-room-06-lrg.jpg */,
+				CE5266DC205C102F00A319C8 /* JW-Marriott-Mumbai-guestroom.jpg */,
+				CE5266DE205C103F00A319C8 /* kglmc-guestroom-0036-hor-clsc.jpg */,
+				CE5266E4205C109800A319C8 /* 153073093.jpg */,
+				CE5266E0205C105000A319C8 /* contemporary-bathroom.jpg */,
+				CE5266E2205C105B00A319C8 /* delap_phototour18_w.jpg */,
+				CE5266E6205C11D500A319C8 /* fradt_crossrestaurant_home.jpg */,
+				CE5266F6205C601800A319C8 /* 3717923.png */,
+				CE63C0C32060093B0023773E /* 21477_237_z.jpg */,
+				CE63C0C520600A390023773E /* 84369910.jpg */,
+				CE63C0CB20603CAC0023773E /* marriott.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E3F753943F751C03A0F2929C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE60069538959AA0190213C /* Pods_Marriott.framework */,
+				444D625E25BE7C8BB24F63B1 /* Pods_MarriottTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED4E59D204EE56B00BF9467 /* Build configuration list for PBXNativeTarget "Marriott" */;
 			buildPhases = (
+				427093311BB14DBB4D5EDABE /* [CP] Check Pods Manifest.lock */,
 				CED4E579204EE56A00BF9467 /* Sources */,
 				CED4E57A204EE56A00BF9467 /* Frameworks */,
 				CED4E57B204EE56A00BF9467 /* Resources */,
+				8BD885A2798FD2B6BF4CD9AF /* [CP] Embed Pods Frameworks */,
+				90864C3E6C8DE48B1C3A9044 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +349,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED4E5A0204EE56B00BF9467 /* Build configuration list for PBXNativeTarget "MarriottTests" */;
 			buildPhases = (
+				CF1E5D7C34467638DE338304 /* [CP] Check Pods Manifest.lock */,
 				CED4E590204EE56B00BF9467 /* Sources */,
 				CED4E591204EE56B00BF9467 /* Frameworks */,
 				CED4E592204EE56B00BF9467 /* Resources */,
+				7F2B580B23C09DC044F56327 /* [CP] Embed Pods Frameworks */,
+				D47027CE6489DDEA22799836 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +411,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED4E5A9204EE85B00BF9467 /* marriott-rewards-featured-image.png in Resources */,
+				CE55C31C2051819200D280F9 /* MarriottStoryboard.storyboard in Resources */,
+				CE5266F7205C601800A319C8 /* 3717923.png in Resources */,
 				CED4E58E204EE56B00BF9467 /* LaunchScreen.storyboard in Resources */,
+				CE55C31E205189D000D280F9 /* Hammock Palm Trees Beach iPhone 6 Plus HD Wallpaper.jpg in Resources */,
+				CE55C322205189F300D280F9 /* be319827c9728ffe4f055a844b4e69e8.jpg in Resources */,
+				CE55C324205189FB00D280F9 /* spices_seasonings_red_pepper_black_pepper_pepper_star_anise_onion_ginger_garlic_walnuts_bay_leaf_78738_640x960.jpg in Resources */,
+				CE5266D9205C0FFE00A319C8 /* 57428872.jpg in Resources */,
+				CE5266D7205C0FBD00A319C8 /* oxrvb_main03.jpg in Resources */,
+				CE5266E1205C105000A319C8 /* contemporary-bathroom.jpg in Resources */,
+				CE55C32620518A0400D280F9 /* allef-vinicius-241577-unsplash.jpg in Resources */,
+				CE63C0C620600A390023773E /* 84369910.jpg in Resources */,
 				CED4E58B204EE56B00BF9467 /* Assets.xcassets in Resources */,
+				CE5266DD205C102F00A319C8 /* JW-Marriott-Mumbai-guestroom.jpg in Resources */,
+				CE5266CF205C002500A319C8 /* chijw_main01.jpg in Resources */,
+				CE63C0C2206006070023773E /* scroll.xib in Resources */,
+				CE7EFC8B20587595003D469F /* Google-Maps-icon.png in Resources */,
+				CE5266E3205C105B00A319C8 /* delap_phototour18_w.jpg in Resources */,
+				CE5266DB205C102000A319C8 /* cy_space_guest-room-06-lrg.jpg in Resources */,
+				CED4E5A7204EE79B00BF9467 /* 91e587f5e4bf5b6f99054d3e7a5d47b1--sailing-boat-sail-boats.jpg in Resources */,
+				CE55C32820518A0E00D280F9 /* ws_Building_Prague_Czech_Republic_640x1136.jpg in Resources */,
+				CED4E5A5204EE63C00BF9467 /* 325cc63a83badd74fa0f47249a3dcbfe_icon.png in Resources */,
+				CE55C320205189DF00D280F9 /* Glass Apple Logo carved in Metal iPhone 5 Wallpaper-320x480.png in Resources */,
+				CECB2996204F64D700C6062B /* Safari-icon.png in Resources */,
+				CE5266E5205C109800A319C8 /* 153073093.jpg in Resources */,
+				CECB2990204F3EBC00C6062B /* User-Interface-Unchecked-Checkbox-icon.png in Resources */,
+				CE63C0C42060093B0023773E /* 21477_237_z.jpg in Resources */,
+				CECB299820502FFE00C6062B /* GoogleService-Info.plist in Resources */,
+				CE5266E7205C11D500A319C8 /* fradt_crossrestaurant_home.jpg in Resources */,
+				CE7EFC8D205880E5003D469F /* 690041_arrows_512x512.png in Resources */,
+				CE63C0CC20603CAD0023773E /* marriott.png in Resources */,
+				CE5266E9205C437800A319C8 /* 56688272390e5601b0ace1e9.jpg in Resources */,
+				CE5266DF205C103F00A319C8 /* kglmc-guestroom-0036-hor-clsc.jpg in Resources */,
+				CECB2992204F429E00C6062B /* User-Interface-Checked-Checkbox-icon.png in Resources */,
 				CED4E586204EE56B00BF9467 /* Main.storyboard in Resources */,
+				CE55C32E2051F1AB00D280F9 /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +459,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		427093311BB14DBB4D5EDABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marriott-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F2B580B23C09DC044F56327 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarriottTests/Pods-MarriottTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD885A2798FD2B6BF4CD9AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Marriott/Pods-Marriott-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GooglePlacesPicker/GooglePlacesPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GooglePlacesPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marriott/Pods-Marriott-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90864C3E6C8DE48B1C3A9044 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Marriott/Pods-Marriott-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marriott/Pods-Marriott-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1E5D7C34467638DE338304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarriottTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47027CE6489DDEA22799836 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarriottTests/Pods-MarriottTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CED4E579204EE56A00BF9467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -204,7 +583,35 @@
 			files = (
 				CED4E589204EE56B00BF9467 /* Marriott.xcdatamodeld in Sources */,
 				CED4E583204EE56B00BF9467 /* ViewController.swift in Sources */,
+				CE63C0C820602FCD0023773E /* BookhistoryViewController.swift in Sources */,
 				CED4E581204EE56A00BF9467 /* AppDelegate.swift in Sources */,
+				CEA17D6A205813A3002F1DEB /* MapsViewController.swift in Sources */,
+				CE63C0D4206084030023773E /* bookedTableViewCell.swift in Sources */,
+				CE63C0D2206071120023773E /* Hotelinfo.swift in Sources */,
+				CE65245B205B0C82007E1539 /* TableViewCell.swift in Sources */,
+				CECB299A2050395C00C6062B /* BookViewController.swift in Sources */,
+				CE3B9D692052D7090022922D /* web2ViewController.swift in Sources */,
+				CE9071A42056F9D100A72CC9 /* CollectionViewCell.swift in Sources */,
+				CE504311204EF57100FB8C82 /* popupViewController.swift in Sources */,
+				CE7E5179204F11CA00D67ECE /* popup2ViewController.swift in Sources */,
+				CE0F32A1205DF2D400BB2F2D /* ratesViewController.swift in Sources */,
+				CE1895FE206142EF00650550 /* informationViewController.swift in Sources */,
+				CE55C32C2051EA0800D280F9 /* Slide.swift in Sources */,
+				CE085D7F205ABBFB009EEE1E /* results.swift in Sources */,
+				CE0F329B205DD60D00BB2F2D /* roomTableViewCell.swift in Sources */,
+				CE5266D1205C0F2500A319C8 /* hoteldetailViewController.swift in Sources */,
+				CE63C0C0206005D60023773E /* scroll.swift in Sources */,
+				CE5266F9205C645300A319C8 /* hotelmapViewController.swift in Sources */,
+				CE0A222A205075EC004323C2 /* resetViewController.swift in Sources */,
+				CEA17D6C20581509002F1DEB /* HotelsViewController.swift in Sources */,
+				CE0F3299205D873B00BB2F2D /* RoomViewController.swift in Sources */,
+				CE256EDC205414ED00BCA447 /* location1ViewController.swift in Sources */,
+				CE63C0BE206000200023773E /* confirmationViewController.swift in Sources */,
+				CECB2994204F489E00C6062B /* webViewController.swift in Sources */,
+				CE24CD042056C7A400DED1C8 /* optionsViewController.swift in Sources */,
+				CE0F329D205DD64900BB2F2D /* room2TableViewCell.swift in Sources */,
+				CE24CD062056E34F00DED1C8 /* CalendarViewController.swift in Sources */,
+				CE23A01320534F5A0072742F /* locationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,34 +762,41 @@
 		};
 		CED4E59E204EE56B00BF9467 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6800AE47189BD7D35E2DFC0C /* Pods-Marriott.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67N2CTS37J;
 				INFOPLIST_FILE = Marriott/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dikan.chen.Marriott;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CED4E59F204EE56B00BF9467 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031DD06D9D59900396E40F97 /* Pods-Marriott.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67N2CTS37J;
 				INFOPLIST_FILE = Marriott/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dikan.chen.Marriott;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		CED4E5A1204EE56B00BF9467 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEBE46E4A0E8DD1FB21F75F /* Pods-MarriottTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -399,6 +813,7 @@
 		};
 		CED4E5A2204EE56B00BF9467 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B77A4201A343BE8C133D0D /* Pods-MarriottTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

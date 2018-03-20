@@ -8,6 +8,10 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleMaps
+import GooglePlacesPicker
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +21,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyCwEcoS7lLjeO1_t0dBDVixEpc4zFnM8uM")
+        GMSPlacesClient.provideAPIKey("AIzaSyCwEcoS7lLjeO1_t0dBDVixEpc4zFnM8uM")
+        FirebaseApp.configure()
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let storyboard = UIStoryboard(name:"MarriottStoryboard", bundle: nil)
+        var vc : UIViewController
+        if (UserDefaults.standard.value(forKey: "email") as? String) == nil {
+            vc = storyboard.instantiateViewController(withIdentifier: "onboarding")
+        }else{
+            vc = storyboard.instantiateInitialViewController()!
+        }
+        self.window?.rootViewController = vc
+        self.window?.makeKeyAndVisible()
         return true
     }
 
