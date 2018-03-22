@@ -539,7 +539,7 @@
                                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="closePopUp:" destination="SEx-MN-zWr" eventType="touchUpInside" id="Vze-wA-CzD"/>
+                                                    <action selector="closepop:" destination="SEx-MN-zWr" eventType="touchUpInside" id="Ydd-Lq-mcO"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9w-v2-6d1">
@@ -658,7 +658,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="register:" destination="SEx-MN-zWr" eventType="touchUpInside" id="2CM-Mj-OSj"/>
+                                                    <action selector="jointapped:" destination="SEx-MN-zWr" eventType="touchUpInside" id="23g-aY-gkn"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="* Password should have a lower and uppter case letter, 8-20 characters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82u-5f-0FL">
@@ -770,12 +770,12 @@
                     </view>
                     <size key="freeformSize" width="375" height="1050"/>
                     <connections>
-                        <outlet property="confirm" destination="uHC-wT-yug" id="nEE-6G-9Kp"/>
-                        <outlet property="countryTextField" destination="iEj-Yv-uqe" id="hLR-qZ-O84"/>
-                        <outlet property="email" destination="thH-XQ-GdW" id="wTc-Qk-RRh"/>
-                        <outlet property="firstname" destination="MId-Xw-PoL" id="yY2-bY-mRs"/>
-                        <outlet property="lastname" destination="mL6-XZ-gd5" id="x7o-Wk-5qY"/>
-                        <outlet property="password" destination="Tab-og-4cZ" id="vgx-Dh-3hB"/>
+                        <outlet property="confirmTextfield" destination="uHC-wT-yug" id="JdY-q7-WiN"/>
+                        <outlet property="countryTextfield" destination="iEj-Yv-uqe" id="q4n-T0-3Fd"/>
+                        <outlet property="emailTextfield" destination="thH-XQ-GdW" id="xIh-yL-hwF"/>
+                        <outlet property="firstnameTextfield" destination="MId-Xw-PoL" id="GIp-w8-kfr"/>
+                        <outlet property="lastnameTextfield" destination="mL6-XZ-gd5" id="QYe-eu-gKX"/>
+                        <outlet property="passwordTextfield" destination="Tab-og-4cZ" id="xuk-5J-ADg"/>
                         <segue destination="cQ6-ad-Dae" kind="presentation" identifier="segue" id="9lT-rU-Mkt"/>
                     </connections>
                 </viewController>

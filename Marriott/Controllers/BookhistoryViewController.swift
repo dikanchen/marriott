@@ -109,6 +109,15 @@ class BookhistoryViewController: UIViewController, UITableViewDelegate, UITableV
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! bookedTableViewCell
         cell.hotelnameLabel.text = bookedhotellist[indexPath.row].fbhotelname
         cell.dateLabel.text = bookedhotellist[indexPath.row].fbdates
+        daysarr.append(bookedhotellist[indexPath.row].fbdays!)
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 230
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         dladdress = bookedhotellist[indexPath.row].fbaddress!
         id = bookedhotellist[indexPath.row].fbchildref!
         dldailyprice = bookedhotellist[indexPath.row].fbdailyprice!
@@ -120,15 +129,7 @@ class BookhistoryViewController: UIViewController, UITableViewDelegate, UITableV
         dlroomtype = bookedhotellist[indexPath.row].fbtypes!
         dltax = bookedhotellist[indexPath.row].fbtax!
         dltotalprice = bookedhotellist[indexPath.row].fbtotalprice!
-        daysarr.append(bookedhotellist[indexPath.row].fbdays!)
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 230
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
         performSegue(withIdentifier: "detail", sender: self)
     }
 
